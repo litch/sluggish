@@ -5,10 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[lib]
-name = "sluggish"
-path = "src/lib.rs"
-
 [dependencies]
 tokio = { version = "1.18.2", features = ["full"] }
 cln-plugin = "0.1.0"
